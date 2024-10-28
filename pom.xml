@@ -284,7 +284,7 @@
             to sort automatically use
              mvn com.github.ekryd.sortpom:sortpom-maven-plugin:2.8.0:sort -Dsort.sortProperties=true -Dsort.nrOfIndentSpace=4 -Dsort.keepBlankLines=true -Dsort.sortDependencies=scope,groupId,artifactId
          -->
-        <version.antlr>2.7.7</version.antlr>
+        <version.antlr>20030911</version.antlr>
         <version.com.beust>1.78</version.com.beust>
         <version.com.fasterxml.classmate>1.5.1</version.com.fasterxml.classmate>
         <version.com.fasterxml.jackson>2.12.3</version.com.fasterxml.jackson>
