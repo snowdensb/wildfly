@@ -29,7 +29,7 @@ jobs:
           echo "::set-output name=artifacts::${ARTIFACTS}"
 
       - name: Clone base version
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: ${{ steps.prepare.outputs.base }}
           path: base
@@ -49,7 +49,7 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Clone PR version
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: pr
 
