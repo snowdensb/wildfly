@@ -50,7 +50,7 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <!-- use the Netty version required by HornetQ 2.4.7.Final -->
-            <version>4.0.13.Final</version>
+            <version>4.1.119.Final</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
