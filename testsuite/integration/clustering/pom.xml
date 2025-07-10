@@ -572,7 +572,7 @@
                         <artifactId>maven-resources-plugin</artifactId>
                         <!-- FIXME Remove version override once rest of WF upgrades to this or newer version -->
                         <!-- Bring in version with fix for https://issues.apache.org/jira/browse/MRESOURCES-236 -->
-                        <version>3.2.0</version>
+                        <version>3.3.1</version>
                         <executions>
                             <!-- Copy over infinispan server distribution from custom path -->
                             <execution>
